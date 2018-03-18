@@ -103,8 +103,8 @@ auf den Ordner `web/` gesetzt sein (z.B. über das Admin-Panel des Hosting-Provi
 
 ### Das Contao-Installtool
 
-Um das Contao-Installtool aufzurufen, hängen Sie einfach `install.php`
-an die URL Ihrer Contao-Installation an. Beachten Sie, dass das Installtool mit
+Um das Contao-Installtool aufzurufen, hängen Sie einfach `install`
+an die URL Ihrer Contao-Installation an (www.domain.tld/contao/install). Beachten Sie, dass das Installtool mit
 einem Passwort gegen Brute Force-Attacken geschützt ist und gesperrt wird, wenn
 dreimal hintereinander ein falsches Passwort eingegeben wurde. Um diese Sperre
 aufzuheben, öffnen Sie die Datei `system/config/localconfig.php` in einem
